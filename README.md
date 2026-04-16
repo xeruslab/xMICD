@@ -56,6 +56,7 @@ ICD2Vec/
 └── model/
     └── GatorTron-OG_icd2vec_finetuning/
 ```
+For convenience, you may place the embedding CSV file in the same directory as your script or notebook and name it, for example, "icd_code_vec.csv", as used in the examples below. However, any filename and location are acceptable as long as the correct path is provided in pd.read_csv().
 
 ### Required embedding CSV format
 
